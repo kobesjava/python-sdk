@@ -39,5 +39,15 @@ setup(
     keywords=["Jaki", "Public API"],
     install_requires=[req for req in requirements],
     packages=find_packages(),
+    classifiers=[
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+    ],
+    include_package_data=True,
     python_requires=">=3.6"
 )
